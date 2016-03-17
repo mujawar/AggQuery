@@ -1,0 +1,524 @@
+first create school database
+
+second create users collection than insert these values
+
+{
+	"_id": ObjectId("564b0e3c4b67c0935bc4ce45"),
+	"student_id": 0,
+	"class_id": 2,
+	"scores": [{
+		"type": "exam",
+		"score": 57
+	}, {
+		"type": "quiz",
+		"score": 21
+	}, {
+		"type": "homework",
+		"score": 67
+	}, {
+		"type": "homework",
+		"score": 18
+	}]
+} {
+	"_id": ObjectId("564b12eb4b67c0935bc4ce46"),
+	"student_id": 1,
+	"class_id": 3,
+	"scores": [{
+		"type": "exam",
+		"score": 54
+	}, {
+		"type": "quiz",
+		"score": 24
+	}, {
+		"type": "homework",
+		"score": 64
+	}, {
+		"type": "homework",
+		"score": 14
+	}]
+} {
+	"_id": ObjectId("564b13044b67c0935bc4ce47"),
+	"student_id": 67,
+	"class_id": 6,
+	"scores": [{
+		"type": "exam",
+		"score": 56
+	}, {
+		"type": "quiz",
+		"score": 26
+	}, {
+		"type": "homework",
+		"score": 66
+	}, {
+		"type": "homework",
+		"score": 166
+	}]
+} {
+	"_id": ObjectId("564b13194b67c0935bc4ce48"),
+	"student_id": 2,
+	"class_id": 3,
+	"scores": [{
+		"type": "exam",
+		"score": 56
+	}, {
+		"type": "quiz",
+		"score": 26
+	}, {
+		"type": "homework",
+		"score": 66
+	}, {
+		"type": "homework",
+		"score": 166
+	}]
+} {
+	"_id": ObjectId("564b13324b67c0935bc4ce49"),
+	"student_id": 3,
+	"class_id": 4,
+	"scores": [{
+		"type": "exam",
+		"score": 156
+	}, {
+		"type": "quiz",
+		"score": 126
+	}, {
+		"type": "homework",
+		"score": 166
+	}, {
+		"type": "homework",
+		"score": 266
+	}]
+} {
+	"_id": ObjectId("564b134e4b67c0935bc4ce4a"),
+	"student_id": 4,
+	"class_id": 5,
+	"scores": [{
+		"type": "exam",
+		"score": 556
+	}, {
+		"type": "quiz",
+		"score": 526
+	}, {
+		"type": "homework",
+		"score": 566
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b13574b67c0935bc4ce4b"),
+	"student_id": 4,
+	"class_id": 5,
+	"scores": [{
+		"type": "exam",
+		"score": 556
+	}, {
+		"type": "quiz",
+		"score": 526
+	}, {
+		"type": "homework",
+		"score": 566
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b13594b67c0935bc4ce4c"),
+	"student_id": 4,
+	"class_id": 5,
+	"scores": [{
+		"type": "exam",
+		"score": 556
+	}, {
+		"type": "quiz",
+		"score": 526
+	}, {
+		"type": "homework",
+		"score": 566
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b13734b67c0935bc4ce4d"),
+	"student_id": 5,
+	"class_id": 6,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b138e4b67c0935bc4ce4e"),
+	"student_id": 6,
+	"class_id": 6,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14044b67c0935bc4ce4f"),
+	"student_id": 12,
+	"class_id": 12,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14a84b67c0935bc4ce50"),
+	"student_id": 12,
+	"class_id": 12,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14ad4b67c0935bc4ce51"),
+	"student_id": 14,
+	"class_id": 15,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14bf4b67c0935bc4ce52"),
+	"student_id": 14,
+	"class_id": 15,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14df4b67c0935bc4ce53"),
+	"student_id": 36,
+	"class_id": 36,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b14f04b67c0935bc4ce54"),
+	"student_id": 46,
+	"class_id": 46,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+} {
+	"_id": ObjectId("564b150a4b67c0935bc4ce55"),
+	"student_id": 36,
+	"class_id": 43,
+	"scores": [{
+		"type": "exam",
+		"score": 656
+	}, {
+		"type": "quiz",
+		"score": 726
+	}, {
+		"type": "homework",
+		"score": 666
+	}, {
+		"type": "homework",
+		"score": 566
+	}]
+}
+
+===== to find number of documents  ====
+db.users.find().count()
+17
+
+=========
+
+///// aggregate a documents ////
+
+{$group:{_id:<expression>,<field>:{<accumulator>:<expression1>},....}}
+
+///////////
+
+
+===========  sorting in asending order  ======
+
+db.users.aggregate([{$group:{"_id":"$student_id"}},{$sort:{_id:1}}])
+{ "_id" : 0 }
+{ "_id" : 1 }
+{ "_id" : 2 }
+{ "_id" : 3 }
+{ "_id" : 4 }
+{ "_id" : 5 }
+{ "_id" : 6 }
+{ "_id" : 12 }
+{ "_id" : 14 }
+{ "_id" : 36 }
+{ "_id" : 46 }
+{ "_id" : 67 }
+
+===============
+
+////// some of the aggregation method which we will be using to aggregate query   //////
+Name                          description
+$sum         return a sum for each group 
+$avg         return avagare for each grroup
+$first       return a value from first document for each group
+$last        return a value from last document for each group
+$max         return highest expressin value from each document
+$min         return lowest experssion value from each documents
+
+//////////////////
+
+
+------------------ count of student_id's ---------
+
+db.users.aggregate([{$group:{"_id":"$student_id",Count:{$sum:1}}},{$sort:{_id:1}}])
+result:
+
+{ "_id" : 0, "Count" : 1 }
+{ "_id" : 1, "Count" : 1 }
+{ "_id" : 2, "Count" : 1 }
+{ "_id" : 3, "Count" : 1 }
+{ "_id" : 4, "Count" : 3 }
+{ "_id" : 5, "Count" : 1 }
+{ "_id" : 6, "Count" : 1 }
+{ "_id" : 12, "Count" : 2 }
+{ "_id" : 14, "Count" : 2 }
+{ "_id" : 36, "Count" : 2 }
+{ "_id" : 46, "Count" : 1 }
+{ "_id" : 67, "Count" : 1 }
+
+        it will give us count of student_id's 
+ 
+---------------------------
+
+///// sorting in decenting order////
+
+ db.users.aggregate([{$group:{"_id":"$student_id",Count:{$sum:1}}},{$sort:{_id:-1}}])
+result:
+
+{ "_id" : 67, "Count" : 1 }
+{ "_id" : 46, "Count" : 1 }
+{ "_id" : 36, "Count" : 2 }
+{ "_id" : 14, "Count" : 2 }
+{ "_id" : 12, "Count" : 2 }
+{ "_id" : 6, "Count" : 1 }
+{ "_id" : 5, "Count" : 1 }
+{ "_id" : 4, "Count" : 3 }
+{ "_id" : 3, "Count" : 1 }
+{ "_id" : 2, "Count" : 1 }
+{ "_id" : 1, "Count" : 1 }
+{ "_id" : 0, "Count" : 1 }
+
+
+//////////////////////// sorting id in acending and Count in decending  ///////
+
+ db.users.aggregate([{$group:{"_id":"$student_id",Count:{$sum:1}}},{$sort:{Count:-1,_id:1}}])
+{ "_id" : 4, "Count" : 3 }
+{ "_id" : 12, "Count" : 2 }
+{ "_id" : 14, "Count" : 2 }
+{ "_id" : 36, "Count" : 2 }
+{ "_id" : 0, "Count" : 1 }
+{ "_id" : 1, "Count" : 1 }
+{ "_id" : 2, "Count" : 1 }
+{ "_id" : 3, "Count" : 1 }
+{ "_id" : 5, "Count" : 1 }
+{ "_id" : 6, "Count" : 1 }
+{ "_id" : 46, "Count" : 1 }
+{ "_id" : 67, "Count" : 1 }
+
+///////////////////// pitfall(error) in aggregating data using array
+if you want to find avarage in the array we have to use $unwind othertwise it will give you zero everytime
+
+  db.users.aggregate([{$group:{"_id":"$student_id",Average:{$avg:"$scores.score"}}},{$sort:{Count:-1,_id:1}}])
+{ "_id" : 0, "Average" : 0 }
+{ "_id" : 1, "Average" : 0 }
+{ "_id" : 2, "Average" : 0 }
+{ "_id" : 3, "Average" : 0 }
+{ "_id" : 4, "Average" : 0 }
+{ "_id" : 5, "Average" : 0 }
+{ "_id" : 6, "Average" : 0 }
+{ "_id" : 12, "Average" : 0 }
+{ "_id" : 14, "Average" : 0 }
+{ "_id" : 36, "Average" : 0 }
+{ "_id" : 46, "Average" : 0 }
+{ "_id" : 67, "Average" : 0 }
+
+////////////////// use unwind to find avarage in case of array////
+
+db.users.aggregate([{$unwind:"$scores"},{$project:{_id:0,student_id:1,class_id:1,scores:1}}])
+result:
+
+{ "student_id" : 0, "class_id" : 2, "scores" : { "type" : "exam", "score" : 57 } }
+{ "student_id" : 0, "class_id" : 2, "scores" : { "type" : "quiz", "score" : 21 } }
+{ "student_id" : 0, "class_id" : 2, "scores" : { "type" : "homework", "score" : 67 } }
+{ "student_id" : 0, "class_id" : 2, "scores" : { "type" : "homework", "score" : 18 } }
+{ "student_id" : 1, "class_id" : 3, "scores" : { "type" : "exam", "score" : 54 } }
+{ "student_id" : 1, "class_id" : 3, "scores" : { "type" : "quiz", "score" : 24 } }
+{ "student_id" : 1, "class_id" : 3, "scores" : { "type" : "homework", "score" : 64 } }
+{ "student_id" : 1, "class_id" : 3, "scores" : { "type" : "homework", "score" : 14 } }
+{ "student_id" : 67, "class_id" : 6, "scores" : { "type" : "exam", "score" : 56 } }
+{ "student_id" : 67, "class_id" : 6, "scores" : { "type" : "quiz", "score" : 26 } }
+{ "student_id" : 67, "class_id" : 6, "scores" : { "type" : "homework", "score" : 66 } }
+{ "student_id" : 67, "class_id" : 6, "scores" : { "type" : "homework", "score" : 166 } }
+{ "student_id" : 2, "class_id" : 3, "scores" : { "type" : "exam", "score" : 56 } }
+{ "student_id" : 2, "class_id" : 3, "scores" : { "type" : "quiz", "score" : 26 } }
+{ "student_id" : 2, "class_id" : 3, "scores" : { "type" : "homework", "score" : 66 } }
+{ "student_id" : 2, "class_id" : 3, "scores" : { "type" : "homework", "score" : 166 } }
+{ "student_id" : 3, "class_id" : 4, "scores" : { "type" : "exam", "score" : 156 } }
+{ "student_id" : 3, "class_id" : 4, "scores" : { "type" : "quiz", "score" : 126 } }
+{ "student_id" : 3, "class_id" : 4, "scores" : { "type" : "homework", "score" : 166 } }
+{ "student_id" : 3, "class_id" : 4, "scores" : { "type" : "homework", "score" : 266 } }
+Type "it" for more
+
+/////////////////// finding Avgscore,Totalscore,Maxscore,Minscore
+
+
+db.users.aggregate([{$unwind:"$scores"},{$group:{"_id":"$student_id",Avgscore:{$avg:"$scores.score"},Totalscore:{$sum:"$scores.score"},Maxscore:{$max:"$scores.score"},Minscore:{$min:"$scores.score"}}},{$sort:{Avgscore:-1,_id:1}}])
+
+
+{ "_id" : 5, "Avgscore" : 653.5, "Totalscore" : 2614, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 6, "Avgscore" : 653.5, "Totalscore" : 2614, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 12, "Avgscore" : 653.5, "Totalscore" : 5228, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 14, "Avgscore" : 653.5, "Totalscore" : 5228, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 36, "Avgscore" : 653.5, "Totalscore" : 5228, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 46, "Avgscore" : 653.5, "Totalscore" : 2614, "Maxscore" : 726, "Minscore" : 566 }
+{ "_id" : 4, "Avgscore" : 553.5, "Totalscore" : 6642, "Maxscore" : 566, "Minscore" : 526 }
+{ "_id" : 3, "Avgscore" : 178.5, "Totalscore" : 714, "Maxscore" : 266, "Minscore" : 126 }
+{ "_id" : 2, "Avgscore" : 78.5, "Totalscore" : 314, "Maxscore" : 166, "Minscore" : 26 }
+{ "_id" : 67, "Avgscore" : 78.5, "Totalscore" : 314, "Maxscore" : 166, "Minscore" : 26 }
+{ "_id" : 0, "Avgscore" : 40.75, "Totalscore" : 163, "Maxscore" : 67, "Minscore" : 18 }
+{ "_id" : 1, "Avgscore" : 39, "Totalscore" : 156, "Maxscore" : 64, "Minscore" : 14 }
+
+
+/////////////////////////  match query///
+
+db.users.aggregate([{$unwind:"$scores"},{$match:{"scores.type":"exam"}}])
+
+result:
+
+{ "_id" : ObjectId("564b0e3c4b67c0935bc4ce45"), "student_id" : 0, "class_id" : 2, "scores" : { "type" : "exam", "score" : 57 } }
+{ "_id" : ObjectId("564b12eb4b67c0935bc4ce46"), "student_id" : 1, "class_id" : 3, "scores" : { "type" : "exam", "score" : 54 } }
+{ "_id" : ObjectId("564b13044b67c0935bc4ce47"), "student_id" : 67, "class_id" : 6, "scores" : { "type" : "exam", "score" : 56 } }
+{ "_id" : ObjectId("564b13194b67c0935bc4ce48"), "student_id" : 2, "class_id" : 3, "scores" : { "type" : "exam", "score" : 56 } }
+{ "_id" : ObjectId("564b13324b67c0935bc4ce49"), "student_id" : 3, "class_id" : 4, "scores" : { "type" : "exam", "score" : 156 } }
+{ "_id" : ObjectId("564b134e4b67c0935bc4ce4a"), "student_id" : 4, "class_id" : 5, "scores" : { "type" : "exam", "score" : 556 } }
+{ "_id" : ObjectId("564b13574b67c0935bc4ce4b"), "student_id" : 4, "class_id" : 5, "scores" : { "type" : "exam", "score" : 556 } }
+{ "_id" : ObjectId("564b13594b67c0935bc4ce4c"), "student_id" : 4, "class_id" : 5, "scores" : { "type" : "exam", "score" : 556 } }
+{ "_id" : ObjectId("564b13734b67c0935bc4ce4d"), "student_id" : 5, "class_id" : 6, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b138e4b67c0935bc4ce4e"), "student_id" : 6, "class_id" : 6, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14044b67c0935bc4ce4f"), "student_id" : 12, "class_id" : 12, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14a84b67c0935bc4ce50"), "student_id" : 12, "class_id" : 12, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14ad4b67c0935bc4ce51"), "student_id" : 14, "class_id" : 15, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14bf4b67c0935bc4ce52"), "student_id" : 14, "class_id" : 15, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14df4b67c0935bc4ce53"), "student_id" : 36, "class_id" : 36, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b14f04b67c0935bc4ce54"), "student_id" : 46, "class_id" : 46, "scores" : { "type" : "exam", "score" : 656 } }
+{ "_id" : ObjectId("564b150a4b67c0935bc4ce55"), "student_id" : 36, "class_id" : 43, "scores" : { "type" : "exam", "score" : 656 } }
+
+
+////////////////////////
+
+db.users.aggregate([{$unwind:"$scores"},{$match:{"scores.type":"exam"}},{$group:{"_id":"$class_id",Avgscore:{$avg:"$scores.score"}}},{$project:{class:"$_id",Avgexamscore:"$Avgscore",_id:0}},{$sort:{Avgexamscore:-1}}])
+result:
+
+{ "class" : 46, "Avgexamscore" : 656 }
+{ "class" : 12, "Avgexamscore" : 656 }
+{ "class" : 36, "Avgexamscore" : 656 }
+{ "class" : 15, "Avgexamscore" : 656 }
+{ "class" : 43, "Avgexamscore" : 656 }
+{ "class" : 5, "Avgexamscore" : 556 }
+{ "class" : 6, "Avgexamscore" : 456 }
+{ "class" : 4, "Avgexamscore" : 156 }
+{ "class" : 2, "Avgexamscore" : 57 }
+{ "class" : 3, "Avgexamscore" : 55 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
