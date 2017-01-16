@@ -1,7 +1,5 @@
 first create school database
-
 second create users collection than insert these values
-
 {
 	"_id": ObjectId("564b0e3c4b67c0935bc4ce45"),
 	"student_id": 0,
