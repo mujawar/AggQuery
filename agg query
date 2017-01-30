@@ -35,7 +35,7 @@ second create users collection than insert these values
 		"score": 14
 	}]
 } {
-	"_id": ObjectId("564b13044b67c0935bc4ce47"),
+         "_id": ObjectId("564b13044b67c0935bc4ce47"),
 	"student_id": 67,
 	"class_id": 6,
 	"scores": [{
@@ -294,16 +294,12 @@ second create users collection than insert these values
 ===== to find number of documents  ====
 db.users.find().count()
 17
-
 =========
-
 ///// aggregate a documents ////
 
 {$group:{_id:<expression>,<field>:{<accumulator>:<expression1>},....}}
 
 ///////////
-
-
 ===========  sorting in asending order  ======
 
 db.users.aggregate([{$group:{"_id":"$student_id"}},{$sort:{_id:1}}])
