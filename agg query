@@ -433,9 +433,7 @@ Type "it" for more
 
 /////////////////// finding Avgscore,Totalscore,Maxscore,Minscore
 
-
 db.users.aggregate([{$unwind:"$scores"},{$group:{"_id":"$student_id",Avgscore:{$avg:"$scores.score"},Totalscore:{$sum:"$scores.score"},Maxscore:{$max:"$scores.score"},Minscore:{$min:"$scores.score"}}},{$sort:{Avgscore:-1,_id:1}}])
-
 
 { "_id" : 5, "Avgscore" : 653.5, "Totalscore" : 2614, "Maxscore" : 726, "Minscore" : 566 }
 { "_id" : 6, "Avgscore" : 653.5, "Totalscore" : 2614, "Maxscore" : 726, "Minscore" : 566 }
